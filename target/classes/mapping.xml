@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapping PUBLIC "-//EXOLAB/Castor Mapping DTD Version 1.0//EN"  
+                         "http://castor.org/mapping.dtd">  
+ <mapping>  
+    <class name="com.ar.hibernate.Employee" auto-complete="true" >  
+        <map-to xml="Employee" ns-uri="http://www.javatpoint.com" ns-prefix="dp"/>  
+        <field name="id" type="integer">  
+            <bind-xml name="id" node="attribute"></bind-xml>  
+        </field>  
+        <field name="name">  
+            <bind-xml name="name"></bind-xml>  
+        </field>  
+        <field name="salary">  
+            <bind-xml name="salary" type="double"></bind-xml>  
+        </field>  
+          
+    </class>  
